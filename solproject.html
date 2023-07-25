@@ -1,0 +1,211 @@
+<!-- solproject.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">        
+        <title>Portfolio</title>
+        <style>
+            h1{
+                font-size: 80px;
+            }            
+            body{
+                background-color: white;
+                color:black; 
+            }
+            .portfolio{
+                width: 100%; height: 150px;                
+                text-align: center; align-items:center;
+                justify-content: center; 
+                display: flex;                
+            }
+            .box3{
+                margin: 0 auto;
+                width:970px;
+                height:50px; 
+                margin-bottom: 10px;
+            }
+            .box2{
+                width: 950px;
+                height: 430px;
+                margin: 0 auto;
+                
+            }
+            .p3{
+                color:white;
+                background-color: black; 
+                border-radius: 5px;
+                font-size: 25px;
+            }
+
+            .box1{
+                background-color: white;
+                color: black;
+                font-size: 25px;
+                font-weight: bold;
+                border:solid #81DAF5;
+                margin-left: 18px;
+                margin-right: 19px;
+                border-radius: 5px;                
+            }  
+            .box4{
+                text-decoration: none;
+                background-color: #81DAF5;
+                
+                font-size: 25px;
+                font-weight: bold;
+                border: solid 2px #81DAF5;
+                border-radius: 10px;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+            }            
+            span{
+                font-size: 20px;
+            }      
+            hr{
+                border: solid 3px #81DAF5
+            }
+            img{
+                width:250px; height:300px;
+                float: left;
+                margin-right: 20px;
+                border-radius: 5px;
+            }
+            #mail{
+                width: 50px; height: 50px;
+            }
+            .p1{
+                font-weight: bold; 
+                font-size: 22px;                            
+            }                
+            #date{
+                float: right;
+                margin-right: 10px;
+            }
+            #div1{
+                width: 950px;                 
+            }
+            #div2{
+                width: 435px; 
+                float:left;
+                margin: 10px;
+            }
+            #div3{
+                width:930px;
+                float:left;
+                margin: 10px;
+            }
+            #div4{
+                width: 296px; 
+                float:left;
+                margin: 10px;
+            }
+            #projects{
+                height:750px;
+            }
+        </style>
+    </head>
+    <body>        
+        <div class="portfolio">
+            <h1>PORTFOLIO</h1>
+        </div>
+
+        <div class="box3">            
+            <button class="box1" type="button"  onclick="window.scrollTo(0, document.getElementById('profile').offsetTop)">PROFILE</button>
+            <button class="box1" type="button"  onclick="window.scrollTo(0, document.getElementById('skills').offsetTop)">SKILLS</button>
+            <button class="box1" type="button"  onclick="window.scrollTo(0, document.getElementById('skills').offsetTop)">PRIZE & ACTIVITY</button>
+            <button class="box1" type="button"  onclick="window.scrollTo(0, document.getElementById('projects').offsetTop)">PROJECTS</button>
+            <button class="box1" type="button"  onclick="window.scrollTo(0, document.getElementById('contact').offsetTop)">CONTACT</button>             
+            
+        </div><br>        
+
+        <div class="box2" id="profile">
+            <h2><span class="p3">&nbsp;PROFILE&nbsp;</span></h2>
+            <hr>
+            <img src="C:\Users\whs76\OneDrive\바탕 화면\project/극락조.jpg" alt="내사진">
+            <span class="p1">Name</span><br>
+            <span class="p2">Won Jong Ho</span><br>
+            <br><br>
+            <span class="p1">Education</span><br>
+            <span class="p2">· 00Univ.Major of Nano-Semiconductor Engineering</span><span id="date">2012-2019</span><br>
+            <span class="p2">· 데이터 분석을 위한 AI 응용소프트웨어 개발 교육</span><span id="date">2023.03-2023.09</span><br>
+            <br><br>
+            <span class="p1">Certificate</span><br>
+            <span class="p2">· 딴 것</span><span id="date">2019</span><br>            
+            <span class="p2">· 딸 듯</span><span id="date">2023</span><br>
+        </div><br>
+
+        <div class="box2" id="skills">
+            <h2 ><span class="p3">&nbsp;SKILLS&nbsp;</span></h2>
+            <hr>
+            <div id="div1">
+                <div id="div4">
+                    <span class="p1">Language</span><br>
+                    <br>
+                    <span class="p2">· Python 3 ●●●○○</span>                    
+                </div>
+                <div id="div4">
+                    <span class="p1">DB</span><br>
+                    <br>
+                    <span class="p2">· MariaDB &nbsp;&nbsp;●●○○○</span><br>
+                    <span class="p2">· MongoDB ◐○○○○</span>
+                </div>
+                <div id="div4">
+                    <span class="p1">LIBRARY</span><br>  
+                </div>            
+            </div>            
+        </div><br>
+
+        <div class="box2" id="prize">
+            <h2 ><span class="p3">&nbsp;PRIZE & ACTIVITY&nbsp;</span></h2>
+            <hr>
+        </div><br>
+
+        <div class="box2" id="projects">
+            <h2 ><span class="p3">&nbsp;PROJECTS&nbsp;</span></h2>
+            <hr>
+            <div id="div1">
+                <div id="div3">
+                    <img src="C:\Users\whs76\OneDrive\바탕 화면\project/pooh.jpg">
+                    <span class="p1">DashBoard</span><br><br>
+                    <span class="p2">· Python 3, Html 5, php, MariaDB 사용하여</span><br>
+                    <span class="p2">&nbsp; 생성된 데이터 분류 하고 현황판으로 출력</span><br>
+                    <span></span><br>
+                    <span></span><br>
+                    <span></span><br>
+                    <span></span><br>
+                    <span></span><br>
+                    <span></span><br>
+                   
+                    <button class="box4"><a href='C:/Users/whs76/OneDrive/바탕%20화면/project/pandas/solproject_01.html'>View Details</a></button>  
+                </div>                
+            </div>
+            <div id="div1">
+                <div id="div3">
+                    <img src="C:\Users\whs76\OneDrive\바탕 화면\project/pooh2.jpg">
+                    <span class="p1">AI</span><br><br>
+                    <span class="p2">·8월 예정</span><br>
+                </div><br> 
+            </div>
+        </div><br>
+
+        <div class="box2" id="contact">
+            <h2><span class="p3">&nbsp;CONTACT&nbsp;</span></h2>
+            <hr>
+            <div id="div1">
+            <div id="div2"><img id='mail' src="C:\Users\whs76\OneDrive\바탕 화면\project/mail.jpg">
+                <span class="p1">xobic0116@naver.com</span></div>
+            <div id="div2"><img id='mail' src="C:\Users\whs76\OneDrive\바탕 화면\project/phone.jpg">
+                <span class="p1">010-0116-1993</span></div>
+            </div>
+            <div id="div1">
+                <div id="div2"><a href="https://blog.naver.com/xobic0116">
+                    <img id='mail' src="C:\Users\whs76\OneDrive\바탕 화면\project/blog.jpg"></a></div>
+                <div id="div2"><a href="https://github.com/D4wnJh/mit">
+                    <img id='mail' src="C:\Users\whs76\OneDrive\바탕 화면\project/github.jpg"></a></div>
+            </div>
+        </div>
+    </body>
+</html>
+    
